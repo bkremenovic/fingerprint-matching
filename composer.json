@@ -1,0 +1,31 @@
+{
+	"name": "bkremenovic/fingerprint-matching",
+	"description": "Laravel / Lumen package that allows you to match fingerprints scanned with SecuGen Hamster Plus device (using minutiae templates)",
+	"keywords": ["laravel", "lumen", "fingerprint", "secugen", "hamster", "matching", "recognition"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Boris Kremenović",
+			"email": "info@boriskremenovic.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"illuminate/support": "5.*",
+		"illuminate/session": "5.*",
+		"illuminate/events": "5.*"
+	},
+	"autoload": {
+        "psr-4": {
+            "Bkremenovic\\Fingerprint\\": "src/"
+        }
+    },
+    "scripts": {
+    	"post-install-cmd": [
+    		"sh install.sh"
+    	],
+    	"post-update-cmd": [
+    		"sh install.sh"
+    	]
+    }
+}
