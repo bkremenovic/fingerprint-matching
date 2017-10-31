@@ -1,14 +1,15 @@
 # Laravel / Lumen fingerprint matching for SecuGen Hamster Plus
 Laravel / Lumen package that allows you to match fingerprints scanned with SecuGen Hamster Plus device (using minutiae templates)
 
-#### Install dependencies:
-```
-sudo apt install python
-```
-
 #### Include a package into your project using composer:
 ```
 composer require bkremenovic/fingerprint-matching dev-master
+```
+
+#### Install dependencies:
+```
+sudo apt install python
+sh vendor/bkremenovic/fingerprint-matching/install.sh
 ```
 
 #### Open your config/app.php and add the following to the providers array:
