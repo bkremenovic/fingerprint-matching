@@ -19,13 +19,5 @@
         "psr-4": {
             "Bkremenovic\\Fingerprint\\": "src/"
         }
-    },
-    "scripts": {
-    	"post-install-cmd": [
-    		"sh install.sh"
-    	],
-    	"post-update-cmd": [
-    		"sh install.sh"
-    	]
     }
 }
